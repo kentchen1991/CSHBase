@@ -8,7 +8,6 @@
 
 #import "CSHBaseTableViewVC.h"
 
-
 @interface CSHBaseTableViewVC ()
 
 @property(nonatomic, assign) UITableViewStyle tableStyle;//列表样式

@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MJRefresh.h"
 #import "CSHThirdPartProtocol.h"
+#import <MJRefresh/MJRefresh.h>
 
 @interface CSHBaseTableViewVC : UIViewController <CSHThirdPartProtocol,UITableViewDelegate, UITableViewDataSource>
 
