@@ -1,10 +1,10 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CSHBase'
-  s.version          = '0.1.0'
-  s.summary          = '做下简介'
+  s.version          = '0.2.0'
+  s.summary          = '第二版'
   s.description      = <<-DESC
-"这里在简介下，要比summary长"
+"改版本测试"
                        DESC
 
   s.homepage         = 'https://github.com/kentchen1991/CSHBase'
@@ -17,12 +17,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'CSHBase/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'CSHBase' => ['CSHBase/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+ 
   s.dependency 'MJRefresh'
 end
